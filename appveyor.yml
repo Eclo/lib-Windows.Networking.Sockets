@@ -77,8 +77,8 @@ before_deploy:
 
 after_deploy:
 # for this environment variable to work here it has to be set in AppVeyor UI
-- nuget push source\Nuget.Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.%GitVersion_NuGetVersionV2%.nupkg %MyGetToken% -Source https://www.myget.org/F/nanoframework-dev/api/v2/package
-- nuget push source\Nuget.Windows.Networking.Sockets.DELIVERABLES\bin\Release\Windows.Networking.Sockets.DELIVERABLES.%GitVersion_NuGetVersionV2%.nupkg %MyGetToken% -Source https://www.myget.org/F/nanoframework-dev/api/v2/package
+- nuget push source\Nuget.Windows.Networking.Sockets\bin\Release\nanoframework.Windows.Networking.Sockets.%GitVersion_NuGetVersionV2%.nupkg %MyGetToken% -Source https://www.myget.org/F/nanoframework-dev/api/v2/package
+- nuget push source\Nuget.Windows.Networking.Sockets.DELIVERABLES\bin\Release\nanoframework.Windows.Networking.Sockets.DELIVERABLES.%GitVersion_NuGetVersionV2%.nupkg %MyGetToken% -Source https://www.myget.org/F/nanoframework-dev/api/v2/package
 
 # requires APPVEYOR_DISCORD_WEBHOOK_URL enviroment variable set with Discord webhook URL
 on_failure:
