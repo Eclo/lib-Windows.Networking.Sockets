@@ -10,20 +10,23 @@
       <Platform>AnyCPU</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <PropertyGroup>
+    <GitVersion_NuGetVersionV2 Condition=" '$(GitVersion_NuGetVersionV2)' == '' ">1.0.0-preview001</GitVersion_NuGetVersionV2>
+  </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\bin\$(Configuration)\Windows.Networking.Sockets.dll">
+    <Content Include="..\Windows.Networking.Sockets\bin\$(Configuration)\Windows.Networking.Sockets.dll">
       <Link>lib\Windows.Networking.Sockets.dll</Link>
     </Content>
-    <Content Include="..\bin\$(Configuration)\Windows.Networking.Sockets.pdb">
+    <Content Include="..\Windows.Networking.Sockets\bin\$(Configuration)\Windows.Networking.Sockets.pdb">
       <Link>lib\Windows.Networking.Sockets.pdb</Link>
     </Content>
-    <Content Include="..\bin\$(Configuration)\Windows.Networking.Sockets.pdbx">
+    <Content Include="..\Windows.Networking.Sockets\bin\$(Configuration)\Windows.Networking.Sockets.pdbx">
       <Link>lib\Windows.Networking.Sockets.pdbx</Link>
     </Content>
-    <Content Include="..\bin\$(Configuration)\Windows.Networking.Sockets.pe">
+    <Content Include="..\Windows.Networking.Sockets\bin\$(Configuration)\Windows.Networking.Sockets.pe">
       <Link>lib\Windows.Networking.Sockets.pe</Link>
     </Content>
-    <Content Include="..\bin\$(Configuration)\Windows.Networking.Sockets.xml">
+    <Content Include="..\Windows.Networking.Sockets\bin\$(Configuration)\Windows.Networking.Sockets.xml">
       <Link>lib\Windows.Networking.Sockets.xml</Link>
     </Content>
   </ItemGroup>
