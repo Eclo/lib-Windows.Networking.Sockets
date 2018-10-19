@@ -73,7 +73,7 @@ before_deploy:
       
       .\generate-change-log.ps1
 
-      Push-AppveyorArtifact $env:APPVEYOR_BUILD_FOLDER\source\Nuget.Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.$env:GitVersion_NuGetVersionV2.nupkg
+      Push-AppveyorArtifact $env:APPVEYOR_BUILD_FOLDER\source\Nuget.Windows.Networking.Sockets\bin\Release\nanoframework.Windows.Networking.Sockets.$env:GitVersion_NuGetVersionV2.nupkg
 
 after_deploy:
 # for this environment variable to work here it has to be set in AppVeyor UI
