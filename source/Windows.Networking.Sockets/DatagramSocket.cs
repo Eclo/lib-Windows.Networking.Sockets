@@ -20,6 +20,22 @@ namespace Windows.Networking.Sockets
     /// </summary>
     public sealed class DatagramSocket : IDatagramSocket, IDisposable //, IDatagramSocket2, IDatagramSocket3
     {
+        // this is an heritage from System.Net.Socket, not sure if it's still required
+        /* WARNING!!!!
+         * The m_Handle field MUST be the first field in the Socket class; it is expected by
+         * the SPOT.NET.SocketNative class.
+         */
+        internal int m_Handle = -1;
+
+
+        private bool m_fBlocking = true;
+        private EndpointPair m_localEndPoint = null;
+
+        // timeout values are stored in uSecs since the Poll method requires it.
+        private int m_recvTimeout = System.Threading.Timeout.Infinite;
+        private int m_sendTimeout = System.Threading.Timeout.Infinite;
+
+
         // this is used as the lock object 
         // a lock is required because multiple threads can access the GpioPin
         private object _syncLock = new object();
