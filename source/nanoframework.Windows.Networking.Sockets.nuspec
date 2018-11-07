@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Windows.Networking.Sockets</id>
+    <version>$version$</version>
+    <title>nanoFramework.Windows.Networking.Sockets</title>
+    <authors>nanoFramework project contributors</authors>
+    <owners>nanoFramework project contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
+    <copyright>Copyright (c) 2018 The nanoFramework project contributors</copyright>    
+    <description>This package includes the Windows.Networking.Sockets assembly for nanoFramework C# projects.</description>
+    <summary>Windows.Networking.Sockets assembly for nanoFramework C# projects</summary>
+    <tags>nanoFramework C# csharp netmf netnf Windows.Networking.Sockets</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="[1.0.5-preview024]" />
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.dll" target="lib\Windows.Networking.Sockets.dll" />
+    <file src="Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.pdb" target="lib\Windows.Networking.Sockets.pdb" />
+    <file src="Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.pdbx" target="lib\Windows.Networking.Sockets.pdbx" />
+    <file src="Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.pe" target="lib\Windows.Networking.Sockets.pe" />
+    <file src="Windows.Networking.Sockets\bin\Release\Windows.Networking.Sockets.xml" target="lib\Windows.Networking.Sockets.xml" /> 
+  </files>
+</package>
