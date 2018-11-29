@@ -13,7 +13,7 @@
 | Component | Build Status | NuGet Package |
 |:-|---|---|
 | Windows.Networking.Sockets | [![Build status](https://ci.appveyor.com/api/projects/status/y3b125jlsdduy8cs?svg=true)](https://ci.appveyor.com/project/nfbot/lib-windows-networking-sockets) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Windows.Networking.Sockets.svg)](https://www.nuget.org/packages/nanoFramework.Windows.Networking.Sockets/)  |
-| Windows.Networking.Sockets (preview) | [![Build status](https://ci.appveyor.com/api/projects/status/y3b125jlsdduy8cs/branch/develop?svg=true)](https://ci.appveyor.com/project/nfbot/lib-windows-networking-sockets/branch/develop) | [![MyGet Pre Release](https://img.shields.io/myget/nanoframework-dev/vpre/nanoFramework.Windows.Networking.Sockets.svg)](https://www.myget.org/feed/nanoframework-dev/package/nuget/nanoFramework.Windows.Networking.Sockets) |
+| Windows.Networking.Sockets (preview) | [![Build Status](https://dev.azure.com/nanoframework/Windows.Networking.Sockets/_apis/build/status/nanoframework.lib-Windows.Networking.Sockets)](https://dev.azure.com/nanoframework/Windows.Networking.Sockets/_build/latest?definitionId=23) | [![MyGet Pre Release](https://img.shields.io/myget/nanoframework-dev/vpre/nanoFramework.Windows.Networking.Sockets.svg)](https://www.myget.org/feed/nanoframework-dev/package/nuget/nanoFramework.Windows.Networking.Sockets) |
 
 
 ## Feedback and documentation
