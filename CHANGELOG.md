@@ -1,7 +1,6 @@
 # Change Log
 
-## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-Windows.Networking.Sockets/tree/HEAD)
-
+## [v1.0.2-preview-008](https://github.com/nanoframework/lib-Windows.Networking.Sockets/tree/v1.0.2-preview-008) (2018-11-29)
 **Documentation and other chores:**
 
 - Added Initial StreamSocket and associatted class templates [\#1](https://github.com/nanoframework/lib-Windows.Networking.Sockets/pull/1)
