@@ -5,15 +5,20 @@
     "precision": "revision"
   },
   "semVer1NumericIdentifierPadding": 3,
-  "nugetPackageVersion": {
-    "semVer": 1
-   },
+  "nuGetPackageVersion": {
+    "semVer": 2.0
+  },
   "publicReleaseRefSpec": [
     "^refs/heads/master$",
     "^refs/heads/v\\d+(?:\\.\\d+)?$"
   ],
   "cloudBuild": {
-    "setVersionVariables": true,
-    "setAllVariables": true
+    "setAllVariables": true,
+    "buildNumber": null
+  },
+  "release": {
+    "branchName": "release-v{version}",
+    "firstUnstableTag": "preview",
+    "versionIncrement": "build"
   }
 }
