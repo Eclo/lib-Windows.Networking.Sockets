@@ -30,7 +30,7 @@ The list of contributors to this project can be found at [CONTRIBUTORS](https://
 
 ## License
 
-The **nanoFramework** Class Libraries are licensed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+The **nanoFramework** Class Libraries are licensed under the [MIT license](LICENSE.md).
 
 
 ## Code of Conduct
