@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Windows.Networking.Sockets")]
 [assembly: AssemblyCompany("nanoFramework Contributors")]
 [assembly: AssemblyProduct("Windows.Networking.Sockets")]
-[assembly: AssemblyCopyright("Copyright © nanoFramework Contributors 2017")]
+[assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
 
 ////////////////////////////////////////////////////////////////
 // update this whenever the native assembly signature changes //
