@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Windows.Networking.Sockets")]
 [assembly: AssemblyCompany("nanoFramework Contributors")]
 [assembly: AssemblyProduct("Windows.Networking.Sockets")]
-[assembly: AssemblyCopyright("Copyright © nanoFramework Contributors 2017")]
+[assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
